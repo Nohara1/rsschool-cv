@@ -3,115 +3,70 @@ font-family: PlayfairDisplay-Medium;
 src: url("assets/fonts/PlayfairDisplay-Medium.ttf");
 }
 body{
-    font-family: PlayfairDisplay-Medium;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    font-family: 'PlayfairDisplay-Medium';
 }
 *{
     box-sizing: border-box;
 }
+.header{
+  border: 3px solid red;
+}
 .main{
-    border: 1px solid blue;
+  border: 3px solid black;
 }
 .footer{
-    border: 1px solid black;
+  border: 3px solid green;
 }
-.header{
-    width: 1400px;
-    height: 100px;
-    border: 1px solid red;
-    background-color: #101939;
+body{
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .container{
-    max-width: 1440px;
-    max-height: 200px;
-    margin: 0 auto;
-}
-.nav{
-    position: relative;
-    left: 10px;
-}
-.nav-item {
-    display: inline-block;
-    font-size: 40px;
-}
-.nav-link{
-    color: #00BFFF;
-    text-decoration: none;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
 }
 .nav-list{
-    word-spacing: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
 }
-html {
-    scroll-behavior: smooth; 
+.nav-link{  
+  padding: 0 20px;
+  line-height: 50px;
+}
+.main-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.section{
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .section{
+    width: 100%;
   }
-.nav-link:hover{
-    transition: .2s;
-    border: 2px solid #A52A2A;
-    box-shadow: #A52A2A 0px 0px 12px 1px inset,
-                #A52A2A 0px 0px 12px 1px;
-                border-radius:15px;
-  }
-.main{
-    position: absolute;
-    top: 100px;
-    background-color: #101939;
-  }
-.section-title{
-    text-align: center;
-    color:  #00BFFF;
-  }
-.my-photo{
-    border: 6px solid #A52A2A;
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%; 
-  }
-.front{
-    text-align: center;
-    color: #C8A2C8	;
+}
+.photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 #profile{
-    border: 1px solid yellow;
-    width: 500px;
+  text-align: center;
 }
-.summary{
-    color: #C8A2C8	;
-    font-size: 25px;
-}
-  @media (max-width: 768px) {
-    .section {
-      width: 100%;
-    }
-  }
-  .container-left{
-    width: 600px;
-    height: 1200px;
-    display: inline-flex;
-    position: relative;
-    bottom: 0px;
-  }
-  .container-right{
-    width: 600px;
-    height: 1200px;
-    display:  inline-flex;
-    position: relative;
-    bottom: 201px;
-  }
-  .container-all{
-    width: 1400px;
-  }
-  #Summary{
-    width: 600px;
-    height: 400px;
-  }
-  #education{
+.container-left{
+  width: 40%;
+  color: #FFC0CB;
 
-  }
+}
+.container-right{
+  width: 60%;
+  padding: 3040;
+}
