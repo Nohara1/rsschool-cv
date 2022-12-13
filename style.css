@@ -22,6 +22,7 @@ body{
 }
 .header{
     border: 1px solid red;
+    background-color: black;
 }
 .container{
     max-width: 1440px;
@@ -29,13 +30,26 @@ body{
 }
 .nav{
     position: relative;
-    left: 1400px;
+    left: 1100px;
 }
 .nav-item {
     display: inline-block;
-    font-size: 30px;
+    font-size: 40px;
 }
 .nav-link{
-    color: black;
+    color: white;
 text-decoration: none;
 }
+.nav-list{
+    word-spacing: 30px;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+  .nav-link:hover{
+    transition: .3s;
+    border: 2px solid #FF4F36;
+    box-shadow: #FF4F36 0px 0px 12px 1px inset,
+                #FF4F36 0px 0px 12px 1px;
+                border-radius:15px;
+  }
