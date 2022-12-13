@@ -21,17 +21,19 @@ body{
     border: 1px solid black;
 }
 .header{
-    height: 200px;
+    width: 1400px;
+    height: 100px;
     border: 1px solid red;
     background-color: #F5F5DC;
 }
 .container{
     max-width: 1440px;
+    max-height: 200px;
     margin: 0 auto;
 }
 .nav{
     position: relative;
-    left: 380px;
+    left: 10px;
 }
 .nav-item {
     display: inline-block;
@@ -39,7 +41,7 @@ body{
 }
 .nav-link{
     color: #00BFFF;
-text-decoration: none;
+    text-decoration: none;
 }
 .nav-list{
     word-spacing: 30px;
@@ -96,8 +98,11 @@ html {
   }
   .container-right{
     width: 600px;
-    height: 400px;
+    height: 600px;
     display:  inline-flex;
     position: relative;
     bottom: 201px;
+  }
+  .container-all{
+    width: 1400px;
   }
