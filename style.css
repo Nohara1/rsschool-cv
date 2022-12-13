@@ -21,8 +21,9 @@ body{
     border: 1px solid black;
 }
 .header{
+    height: 200px;
     border: 1px solid red;
-    background-color: black;
+    background-color: #F5F5DC;
 }
 .container{
     max-width: 1440px;
@@ -30,14 +31,14 @@ body{
 }
 .nav{
     position: relative;
-    left: 680px;
+    left: 380px;
 }
 .nav-item {
     display: inline-block;
     font-size: 40px;
 }
 .nav-link{
-    color: white;
+    color: #00BFFF;
 text-decoration: none;
 }
 .nav-list{
@@ -46,24 +47,57 @@ text-decoration: none;
 html {
     scroll-behavior: smooth; 
   }
-  .nav-link:hover{
+.nav-link:hover{
     transition: .2s;
-    border: 2px solid #FF4F36;
-    box-shadow: #FF4F36 0px 0px 12px 1px inset,
-                #FF4F36 0px 0px 12px 1px;
+    border: 2px solid #A52A2A;
+    box-shadow: #A52A2A 0px 0px 12px 1px inset,
+                #A52A2A 0px 0px 12px 1px;
                 border-radius:15px;
   }
-  .main{
-    position: relative;
-    bottom: 229px; 
+.main{
+    position: absolute;
+    top: 100px;
+    background-color: #F5F5DC;
   }
-  .section-title{
+.section-title{
     text-align: center;
+    color:  #00BFFF;
   }
-  .my-photo{
+.my-photo{
+    border: 6px solid #A52A2A;
     width: 200px;
     height: 200px;
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
+    border-radius: 50%; 
+  }
+.front{
+    text-align: center;
+    color: #50C878;
+}
+#profile{
+    border: 1px solid yellow;
+    width: 500px;
+}
+.summary{
+    color: #50C878;
+}
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .container-left{
+    width: 600px;
+    display: inline-flex;
+    position: relative;
+    bottom: 0px;
+  }
+  .container-right{
+    width: 600px;
+    height: 400px;
+    display:  inline-flex;
+    position: relative;
+    bottom: 201px;
   }
