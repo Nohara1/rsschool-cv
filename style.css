@@ -10,6 +10,7 @@ body{
 }
 .header{
   border: 3px solid red;
+  background-color: #FFC0CB;
 }
 .main{
   border: 3px solid black;
@@ -29,6 +30,10 @@ body{
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
+  font-size: 20px;
+}
+.nav{
+  width: 1200px;
 }
 .nav-list{
   display: flex;
@@ -39,6 +44,17 @@ body{
 .nav-link{  
   padding: 0 20px;
   line-height: 50px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #727483;
+  font-weight: bold;
+  transition: .3s;
+}
+.nav-link:hover{
+  border: 3px solid rgb(114, 110, 110) ;
+  box-shadow: rgb(114, 110, 110) 0px 0px 12px 1px inset,
+              rgb(114, 110, 110) 0px 0px 12px 1px;
+              border-radius: 15px;
 }
 .main-container{
   display: flex;
@@ -57,17 +73,30 @@ body{
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  border: 6px solid black;
 }
 #profile{
   text-align: center;
 }
 .container-left{
   width: 40%;
-  color: #FFC0CB;
-
+  color: #727483;
+background-color: #FFC0CB;
 }
 .container-right{
   width: 60%;
   padding: 3040;
   text-align: center;
+  color: #727483;
+  background-color: #FFC0CB;
+}
+.BNTU{
+  text-align: left;
+}
+#contacts{
+  font-size: 19px;
+  width: 400px;
+}
+.section-title{
+  text-decoration: underline;
 }
