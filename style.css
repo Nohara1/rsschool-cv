@@ -1,0 +1,118 @@
+@font-face{
+font-family: PlayfairDisplay-Medium;
+src: url("assets/fonts/PlayfairDisplay-Medium.ttf");
+}
+body{
+    font-family: 'Lora', serif;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+}
+.main{
+}
+.footer{
+}
+body{
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  font-size: 20px;
+  background-color: #FFC0CB;
+}
+.nav{
+  width: 1200px;
+}
+.nav-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nav-link{  
+  padding: 0 20px;
+  line-height: 50px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #727483;
+  font-weight: bold;
+  transition: .3s;
+}
+.nav-link:hover{
+  border: 3px solid rgb(114, 110, 110) ;
+  box-shadow: rgb(114, 110, 110) 0px 0px 12px 1px inset,
+              rgb(114, 110, 110) 0px 0px 12px 1px;
+              border-radius: 15px;
+}
+#main-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.section{
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .section{
+    width: 100%;
+  }
+}
+.photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 6px solid black;
+}
+#profile{
+  text-align: center;
+}
+.container-left{
+  width: 40%;
+  color: #727483;
+background-color: #FFC0CB;
+}
+.container-right{
+  width: 60%;
+  padding: 3040;
+  text-align: center;
+  color: #727483;
+  background-color: #FFC0CB;
+}
+.BNTU{
+  text-align: left;
+}
+#contacts{
+  font-size: 19px;
+  width: 400px;
+}
+.section-title{
+  text-decoration: underline;
+}
+#footer{
+  background-color: #727483;
+}
+.myhub{
+  margin-left: 65px;
+margin-right: auto;
+}
+.iconhub{
+  margin-top: 20px;
+}
+.year{
+margin-right: 540px;
+margin-left: auto;
+margin-bottom: 1px;
+margin-top: 20px;
+}
+.rsschool{
+  margin-right: 65px;
+}
