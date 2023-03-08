@@ -23,4 +23,3 @@ Information Measuring Devices and Technologies
 ## Languages 
 * English (A2)
 * Belarusian(carrier)
-* Russian(carrier)
